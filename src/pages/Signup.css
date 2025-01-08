@@ -1,0 +1,25 @@
+.signup__image--container{
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Ffr.freepik.com%2Fvecteurs-premium%2Fajout-pour-enfants-jolis-fruits-dessins-animes-colores_9416681.htm&psig=AOvVaw1_We4XXtHSbCWAg-klWuy3&ust=1733425375414000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKDi493mjYoDFQAAAAAdAAAAABAE);
+    height: 90vh;
+    background-size: cover;
+}
+.signup__form--container,
+.login__form--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.login__image--container{
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Ffr.freepik.com%2Fvecteurs-premium%2Fajout-pour-enfants-jolis-fruits-dessins-animes-colores_9416681.htm&psig=AOvVaw1_We4XXtHSbCWAg-klWuy3&ust=1733425375414000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKDi493mjYoDFQAAAAAdAAAAABAE);
+    height: 90vh;
+    background-size: cover;
+}
+@media screen and (max-width: 756px) {
+    .login__form--container,
+    .signup__form--container {
+        display: none;
+    }
+}

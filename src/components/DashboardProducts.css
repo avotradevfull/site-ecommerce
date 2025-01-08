@@ -1,0 +1,6 @@
+.dashboard-product-preview {
+    width: 100px;
+    height: auto;
+    object-fit: cover; /* Pour gérer les proportions */
+  }
+  
